@@ -56,7 +56,7 @@ function exactCal(babel){
                     }
                     path.unshiftContainer('body', requireAST({
                         PROPERTIES: preObjectExpressionAST(needRequireCache),
-                        SOURCE: t.stringLiteral("babel-plugin-arithmetic/calc.js")
+                        SOURCE: t.stringLiteral("babel-plugin-arithmetic/src/calc.js")
                     }));
                     needRequireCache = [];
                 }

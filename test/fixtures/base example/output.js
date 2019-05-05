@@ -1,5 +1,5 @@
 var {
   accAdd
-} = require("babel-plugin-arithmetic/calc.js");
+} = require("babel-plugin-arithmetic/src/calc.js");
 
 accAdd(c, d);
